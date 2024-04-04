@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin:0px;
+    background-color: rgb(24, 24, 24);
+    color: #ffffff;
+}
+
+#inputs>div>input{
+    border: 1px solid whitesmoke;
+    width: 250px;
+    height: 25px;
+    margin-top: 10px;
+}
+#inputs>div>input:hover{
+    background-color: rgb(23, 33, 48);
+    border: 2px solid whitesmoke;
+}
+#inputs>div:hover{
+    font-weight: 700;
+}
+#inputs{
+    display:flex;
+    justify-content: space-between;
+    font-size: large;
+    padding-top: 20px;
+    width: 1000px;
+    
+}
+
+#title,#submitBtn,#addHere,#inputs{
+    margin: 30px 0px 10px 30px;
+}
+#submitBtn{
+    width:100px;
+    height: 40px;
+    background-color: whitesmoke;
+    border: 1px solid rgb(30, 30, 48);
+    color: black;
+    font-size: large;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+#submitBtn:hover{
+    background-color: rgb(182, 230, 250);
+    font-weight: 600;
+    box-shadow: 0px 0px 2px black;
+}
+
+
+#addHere>p,#addHere>p{
+    color: rgb(107, 106, 106);
+    padding-top: 20px;
+}
+#errorMesage {
+    background-color: #fcbfd2;
+    color: red;
+    width: 400px;
+  }
+  
+  #successMessage {
+    background-color: #ccffcc;
+    color: green;
+    width: 300px;
+    margin-left:40px;
+  }
+
+  .delete-button {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+  }
+
+  .employee-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border:1px solid whitesmoke;
+    border-radius: 10px;
+    width:700px;
+    height:40px;
+    margin: 20px 0px 10px 30px;
+  }
